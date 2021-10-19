@@ -1,0 +1,33 @@
+.service{
+    border-radius: 4px;
+}
+.service h4{
+    padding-top: 20px;
+    color: rgba(24, 23, 23, 0.835);
+}
+.service p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.service img{
+    width: 100%;
+}
+.details-btn{
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 17px;
+    border: 2px solid #2fa7b8 ;
+    border-radius: 25px;
+    color: #2fa7b8;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.details-btn:hover{
+    background-color: #168d9e;
+    color: white;
+}
+.details-btn:focus{
+    background-color: #168d9e;
+    color: white;
+}

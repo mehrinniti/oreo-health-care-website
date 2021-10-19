@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    padding-right: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    font-size: 19px;
+    font-weight: 500;
+}
+.menu a:hover{
+    color: white ;
+    background-color: #2fa8b83b;
+    border-bottom: 4px solid #168d9e;
+    border-radius: 3px;
+    padding: 15px;
+}
+.menu a:focus{
+    color: black;
+    font-weight: bold;
+    border-bottom: 4px solid #168d9e;
+    border-radius: 4px;
+}
+.btn-regular{
+    margin-right: 20px;
+    background-color: #2fa7b8;
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 17px;
+    border: 0px solid #2fa7b8;
+    border-radius: 25px;
+    color: white;
+}
+.btn-regular:hover{
+    background-color: #168d9e;
+    color: white;
+}
+.btn-regular:focus{
+    background-color: #168d9e;
+}

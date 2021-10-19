@@ -1,0 +1,41 @@
+.Appointment{
+
+    background-color: rgb(198, 212, 240);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.appointment-form{
+    width: 70%;
+    text-align: justify;
+    color: rgb(54, 53, 53);
+    font-size: 17px;
+    font-weight: 500;
+}
+.date-of-birth{
+    display: block;
+    width: 100%;
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 00.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da !important;
+    border-radius: 0.25rem;
+}
+.date-of-birth:focus{
+    outline: 5px solid #99c2eb;
+}
+.btn-appointment{
+    margin-left: 85px;
+    margin-right: 50px;
+}

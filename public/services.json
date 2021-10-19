@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/service-1.png",
+        "name": "ROUTINE CHECKUP",
+        "description1": "Routine checkups can help you stay healthy. Your doctor has checked your overall health and may have suggested ways to take good care of yourself.",
+        "description2": "Routine checkups can help you stay healthy. Your doctor has checked your overall health and may have suggested ways to take good care of yourself. Your doctor also may have recommended tests. At home, you can help prevent illness with healthy eating, regular exercise, and other steps. Follow-up care is a key part of your treatment and safety. Be sure to make and go to all appointments, and call your doctor or nurse call line if you are having problems. It's also a good idea to know your test results and keep a list of the medicines you take."
+    },
+    {
+        "id": 2,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/service-2.png",
+        "name": "MEDICAL COUNSELING",
+        "description1": "This review was almost not written. The book was picked up at random—whoever picked out that cheap, purple wrapper?—and my eye fell on this ",
+        "description2": "This review was almost not written. The book was picked up at random—whoever picked out that cheap, purple wrapper?—and my eye fell on this glittering sentence: 'The alcoholic marriage can be fairly easily defined as any marriage in which one or both partners suffer from alcoholism.' Fortunately, it was too much trouble to box it up and return, so other chapters were glanced at and the volume found to be well worthwhile. Dr. Eleanor Easley writes feelingly and honestly about the stresses of the physician dealing with marital problems: 'For the doctor, and especially for the gynecologist, dealing with marriage problems is an unsatisfactory business. Success for a doctor is to cure patients. Amelioration is about the best that one hopes for... this partial result is only obtained by the use of much time. Folks want a quick, easy cure... the last thing they want is to help cure themselves."
+    },
+    {
+        "id": 3,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/service-3.png",
+        "name": "MEDICINE RESEARCH",
+        "description1": "Our AI driven computational disease models provide unique insights into which molecular perturbations cause cell type and tissue",
+        "description2": "Our AI driven computational disease models provide unique insights into which molecular perturbations cause cell type and tissue level dysfunction and predict their effect on phenotypes and diseases and, ultimately, drug efficacy and safety. We use AI to recognise and connect relevant information for molecular disease and drug research. Information from hundreds of life sciences databases and millions of publications and patents is harmonised and integrated using machine reading."
+    },
+    {
+        "id": 4,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/department-1.jpg",
+        "name": "CARDIOLOGY",
+        "description1": "Cardiology is a branch of internal medicine. A cardiologist is not the same as a cardiac surgeon. A cardiac surgeon opens the chest",
+        "description2": "Cardiology is a branch of internal medicine. A cardiologist is not the same as a cardiac surgeon. A cardiac surgeon opens the chest and performs heart surgery. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker. Heart disease relates specifically to the heart, while cardiovascular disease affects the heart, the blood vessels, or both. To become a cardiologist in the United States, it is necessary to complete 4 years of medical school, 3 years of training in internal medicine, and at least 3 years specializing in cardiology."
+    },
+    {
+        "id": 5,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/department-2.jpg",
+        "name": "PULMONOLOGY",
+        "description1": "To become a pulmonologist, you must earn a four-year college degree. From there, you must complete a four-year medical school program.",
+        "description2": "To become a pulmonologist, you must earn a four-year college degree. From there, you must complete a four-year medical school program. You then must complete a three-year training program, or residency, in internal medicine. After you complete your residency, you must complete a two- to three-year fellowship. This allows you to get additional specialized training in pulmonology. You must pass a specialty board certification exam after you complete your fellowship."
+    },
+    {
+        "id": 6,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/department-3.jpg",
+        "name": "GYNECOLOGY",
+        "description1": "Obstetrics is a medical specialty dealing with the fields of birth and related issues and Gynecology deals with diseases particular to women.",
+        "description2": "Obstetrics is a medical specialty dealing with the fields of birth and related issues and Gynecology deals with diseases particular to women. OB is a commonly used abbreviation for obstetrics and GYN is the abbreviation for gynecology or for a gynecologist, a practitioner who specializes in treating diseases of the female reproductive organs. On the other hand, OB/GYN is short for obstetrician/gynecologist, a doctor who both delivers babies and diagnosis and treats diseases related to the female reproductive organs. An obstetrician is a physician who specializes in the surgical care of women and their children during pregnancy, childbirth, pueperium and post-natal care. They also perform regular ultrasounds during pregnancy to determine the health of the fetus, identify any complications and know the gestational period of the fetus. Identify if there are any high risk factors in women during pregnancy, delivery and later. A gynecologist is a physician who specializes in the medical care of women and in health of the female reproductive system. They also deal with pap smear, infections of vaginal and uterine origin, fertility problems, contraception, tubal ligations and hysterectomy. If you are looking for the best gynecologist, visit obstetrics & gynecology hospital in Mysore."
+    },
+    {
+        "id": 7,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/department-4.jpg",
+        "name": "NEUROLOGY",
+        "description1": "Neurologists are doctors who diagnose and treat problems with the brain and nervous system. They don't do surgery. Your doctor might recommend",
+        "description2": "Neurologists are doctors who diagnose and treat problems with the brain and nervous system. They don't do surgery. Your doctor might recommend that you see one if they think you have an illness that needs expert care. A neurologist has at least a college degree and 4 years of medical school plus a 1 year internship and 3 years of special training in neurology. Many also spend extra time learning about a specific field, like movement disorders or pain management."
+    },
+    {
+        "id": 8,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/department-5.jpg",
+        "name": "UROLOGY",
+        "description1": "Urology, a branch of medicine, also known as genitourinary surgery focuses on the medical and surgical diseases of the urinary tract system.",
+        "description2": "Urology, a branch of medicine, also known as genitourinary surgery focuses on the medical and surgical diseases of the urinary tract system. The kidneys, adrenal glands, ureters, urinary bladder, female and the male reproductive organs, viz testes, epididymis, prostate and the penis, come under the branch of Urology. The urinary and the reproductive tracts are linked to each other, thus disorder in one effect the other organ. Urology combines the management of non-surgical conditions, such as urinary tract infections and benign prostatic hyperplasia, with the management of surgical conditions like bladder or prostate cancer, kidney stones, congenital abnormalities, traumatic injury, and stress incontinence. AINU, offer sophisticated care with the passion to serve the people in need, by setting benchmarks for care using the latest possible techniques. We have a strong relationship amongst our doctors, nurses, administrative staff and family members of the patients, to ensure that utmost importance is given to each and every one. We have equipped with the state of the art equipment for evidence-based treatment. Our labs have the latest equipment, which responds with the results that have the minimum lead time."
+    },
+    {
+        "id": 9,
+        "image": "https://thememakker.com/templates/oreo/hospital/front/assets/images/department-6.jpg",
+        "name": "DENTAL",
+        "description1": "Department of Dental & Maxillofacial Surgery of Evercare Hospital Dhaka offers full scope of the dental specialty, including general dentistry",
+        "description2": "Department of Dental & Maxillofacial Surgery of Evercare Hospital Dhaka offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease. The department provides consultation services in level-4 (OPD) through highly qualified and experienced Consultants, who carefully evaluate each patient. After diagnosing the patient’s condition, our Consultants discuss available treatment options and recommend the most effective treatment."
+    }
+]

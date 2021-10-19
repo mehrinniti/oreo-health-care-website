@@ -1,0 +1,21 @@
+.services-container{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.services-title{
+    color: #35c9ddfd;
+    border-left: 4px solid #35c9ddfd;
+    padding-left: 20px;
+}
+.services-subtitle{
+    color: #0a808c;
+    font-weight: 700;
+}
+
+.services-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+}

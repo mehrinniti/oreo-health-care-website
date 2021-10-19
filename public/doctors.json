@@ -1,0 +1,50 @@
+[
+    {
+        "id": 101,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-02.png",
+        "name": "Dr. Amelia",
+        "dept": "Gynecologist"
+    },
+    {
+        "id": 102,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-03.png",
+        "name": "Dr. Jack",
+        "dept": "Audiology"
+    },
+    {
+        "id": 103,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-04.png",
+        "name": "Dr. Charlie",
+        "dept": "Dentist"
+    },
+    {
+        "id": 104,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-05.png",
+        "name": "Dr. Joseph",
+        "dept": "Dentist"
+    },
+    {
+        "id": 105,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-06.png",
+        "name": "Dr. Sophie",
+        "dept": "Gynecologist"
+    },
+    {
+        "id": 106,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-01.png",
+        "name": "Dr. William",
+        "dept": "Audiology"
+    },
+    {
+        "id": 107,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-07.png",
+        "name": "Dr. John",
+        "dept": "Dentist"
+    },
+    {
+        "id": 108,
+        "img": "https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-08.png",
+        "name": "Dr. Jessica",
+        "dept": "Dentist"
+    }
+]

@@ -1,0 +1,25 @@
+.banner{
+    border-top: 6px solid #35c9ddfd;
+    border-bottom: 6px solid #35c9ddfd;
+}
+.banner-text{
+    margin-bottom: 130px;
+}
+.banner-text2{
+    text-align: justify;
+    margin-left: 605px;
+    margin-bottom: 88px;
+}
+.medical-icon{
+    color: #1db5cc;
+    padding-left: 3px;
+}
+.facility{
+    color: #0a808c;
+}
+.icon{
+    font-size: 60px;
+}
+.hospital-info:hover .icon{
+    color: #2199a9;
+}
