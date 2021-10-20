@@ -5,6 +5,7 @@ import logo from '../../images/logo.svg';
 import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
+
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
@@ -12,7 +13,7 @@ const Header = () => {
         <div className="header-container ">
 
             <>
-                <Navbar bg="white" className="sticky-top" >
+                <Navbar bg="white" className="fixed-top" >
                     <Container>
 
                         <Navbar.Brand to="/services" >
@@ -32,16 +33,12 @@ const Header = () => {
 
                             </Nav>
                         </div>
-                        {/*  <div>
-                            <Link to="/login"><Button className="btn-regular" variant="white">
-                                Sign in
-                                <span ><i className="fas fa-sign-in-alt fs-5 ps-2"></i></span>
-                            </Button>{' '}</Link>
-                            <Link to="/signup"><Button className="btn-regular" variant="white">
-                                Sign up
-                                <span ><i className="fas fa-user-plus fs-5 ps-2"></i></span>
-                            </Button>{' '}</Link>
-                        </div> */}
+
+
+                        <Navbar.Text>
+                            <a className="text-secondary text-decoration-none fw-bolder fs-6" href="#login">{user?.displayName}</a>
+                        </Navbar.Text>
+
                         {
                             !user?.email &&
                             <Link to="/login"><Button className="btn-regular" variant="white">
@@ -54,17 +51,15 @@ const Header = () => {
                             user?.email &&
                             <span ><Button onClick={logOut} className="btn-regular" variant="white">
                                 Sign out
-                                <span ><i className="fas fa-sign-in-alt fs-5 ps-2"></i></span>
+                                <span ><i class="fas fa-sign-out-alt fs-5 ps-2"></i></span>
                             </Button>{' '}</span>
                         }
                         <Link to="/signup"><Button className="btn-regular" variant="white">
                             Sign up
-                            <span ><i className="fas fa-user-plus fs-5 ps-2"></i></span>
+                            <span ><i className="fas fa-user-plus fs-6 ps-2"></i></span>
                         </Button>{' '}</Link>
 
-                        <Navbar.Text>
-                            <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text>
+
                     </Container>
                 </Navbar>
             </>

@@ -2,8 +2,10 @@
 .login{
     background-color: rgba(225, 234, 238, 0.637);
     margin-left: 0px;
+    margin-top: 150px;
     border-radius: 10px;
-    margin-bottom: 2px !important;padding-bottom: 1px;
+    margin-bottom: 2px !important;
+    padding-bottom: 1px;
 }
 .login-conteinar{
     /* text-align: center; */
@@ -21,7 +23,14 @@
     border-start-start-radius: 10px;
     border-end-start-radius: 10px ;
 }
+.login-box{
+    width: 290px !important;
 
+}
+.btn-login{
+    background-color: #168d9e;
+    margin-left: 40px;
+}
 .btn-regular{
     margin-right: 20px;
     background-color: #2fa7b8;
@@ -31,6 +40,7 @@
     border: 0px solid #2fa7b8;
     border-radius: 4px;
     color: white;
+    /* margin-right: ; */
 }
 
 .account{

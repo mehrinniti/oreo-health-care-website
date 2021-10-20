@@ -4,7 +4,7 @@ import './Appointment.css';
 
 const Appointment = () => {
     return (
-        <div className="Appointment">
+        <div className="Appointment page">
             <h3>Appointment Form</h3>
             <Form className="my-5 mx-auto appointment-form">
 

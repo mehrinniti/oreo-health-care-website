@@ -6,7 +6,7 @@ const Doctor = ({ doctor }) => {
     const { name, dept, img } = doctor;
     return (
 
-        <Card>
+        <Card className="shadow ">
             <Card.Img className="doc-img" variant="top" src={img} />
             <Card.Body>
                 <Card.Title><h4 className="fw-bolder">{name}</h4></Card.Title>

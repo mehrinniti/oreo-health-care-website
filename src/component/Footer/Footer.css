@@ -29,6 +29,10 @@
     padding-left: 50px;
     margin-top: 25px;
 }
+.doctor-name{
+    text-align: start;
+    margin-top: 27px;
+}
 .social-site a{
     padding-right: 20px;
     color: whitesmoke;

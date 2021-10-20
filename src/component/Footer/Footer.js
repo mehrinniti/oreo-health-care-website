@@ -17,37 +17,16 @@ const Footer = () => {
                         <h4>Our Doctors</h4>
                         <hr />
                         <div>
-                            <div className="container p-0 m-0">
-                                <div className="row g-1 ">
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid ' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-03.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid ' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-06.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid ' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-07.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-01.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-02.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid ' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-04.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-08.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid ' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-03.png" alt="" />
-                                    </div>
-                                    <div className=" col-lg-4">
-                                        <img className='doctor img-fluid ' src="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-05.png" alt="" />
-                                    </div>
+
+                            <div class="row justify-content-around">
+                                <div class="col-4">
+                                    <p className="doctor-name"><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. Amelia <br /><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. Jack <br /><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. Charlie <br /><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. Joseph </p>
+                                </div>
+                                <div class="col-4">
+                                    <p className="doctor-name"><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. Sophie <br /><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. William <br /><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. John <br /><i class="fas fa-caret-right text-info pe-3 fs-5"></i>Dr. Jessica</p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div className="col">

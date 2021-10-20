@@ -4,12 +4,42 @@ import image from '../../images/login-page-img.png';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import logo from '../../images/logo.png';
 import useAuth from './../../Hooks/useAuth';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import { useForm } from 'react-hook-form';
 
 const Login = () => {
 
-    const { signInUsingGoogle } = useAuth();
+    const history = useHistory();
+    const location = useLocation();
+    const redeirect = location.state?.from || '/services'
 
-    // console.log(signInUsingGoogle);
+    const { signInUsingGoogle, userLogin, setIsLoading } = useAuth();
+
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const onSubmit = data => {
+        const { Email, Password } = data;
+        handleEmailLogin(Email, Password);
+    };
+    console.log(errors);
+
+    const handleEmailLogin = (Email, Password) => {
+        userLogin(Email, Password)
+            .then(result => {
+                history.push(redeirect);
+            })
+    }
+
+    const googleLogin = () => {
+        signInUsingGoogle()
+            .then((result) => {
+
+                history.push(redeirect)
+
+            })
+            .finally(() => setIsLoading(false));
+
+    }
+
     return (
         <div>
             <Container>
@@ -22,36 +52,29 @@ const Login = () => {
                     </Col>
 
 
-                    <Col className="login-conteinar" md={{ span: 4, offset: 4 }}>
+                    <Col className="login-conteinar gs-0" md={{ span: 4, offset: 4 }}>
                         <img className="w-75" src={logo} alt="" />
                         <h3>Sign Into Your Account</h3>
 
-                        <Form className="my-5 login-form">
+                        <form onSubmit={handleSubmit(onSubmit)} className="my-5 mx-auto signup-form">
 
-                            <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Control type="email" placeholder="Email address" />
-                            </Form.Group>
+                            <Form.Label className="mb-2">Your Email (required)</Form.Label>
+                            <input className="mb-4 py-2 signup-field login-box" type="email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} />
 
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control type="password" placeholder="Password" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                                <Form.Check className="text-start" type="checkbox" label="Remember me" />
-                            </Form.Group>
-                            <Button className="w-100 btn-regular" variant="white" type="submit">
-                                Sign in
-                            </Button>
+                            <Form.Label>Password  (required)</Form.Label>
+                            <input className="mb-5 py-2 signup-field" type="password" {...register("Password", { required: true })} />
+
+                            <Button onClick={signInUsingGoogle} className="w-75 btn-login btn-regular" variant="primary" type="submit"> Sign in </Button>
+                        </form>
 
 
-                        </Form>
-                        <br /><br /><br />
                         <div>------------------Or Signin with-----------------</div>
-                        <br /><br /><br />
-                        <Button onClick={signInUsingGoogle} className="w-100 bg-primary btn-regular" variant="primary" type="submit">
+                        <br />
+                        <Button onClick={googleLogin} className="w-100 bg-primary btn-regular" variant="primary" type="submit">
                             <i class="fab fa-google-plus-g me-2"></i> Google
                         </Button>
 
-                        <p className="account">Don't have an account? <a href="/register">Register here</a></p>
+                        <p className="account">Don't have an account? <Link to="/signup">Register here</Link></p>
                     </Col>
                 </Row>
 

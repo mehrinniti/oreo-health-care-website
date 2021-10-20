@@ -1,0 +1,46 @@
+
+.healthcare-container{
+    background-color: rgba(225, 234, 238, 0.637);
+    padding-top: 3px;
+    padding-bottom: 50px;
+}
+.healthcare{
+    margin-top: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin-left: 215px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.healthcare h2{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.healthcare p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.back-btn{
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid #2fa7b8 ;
+    border-radius: 25px;
+    color: #2fa7b8;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.back-btn:hover{
+    background-color: #168d9e;
+    color: white;
+}
+.back-btn:focus{
+    background-color: #168d9e;
+    color: white;
+}

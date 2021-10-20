@@ -1,7 +1,5 @@
 .not-found img{
-    /* width: 80%; */
-    /* height: 75%; */
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 20px;
 }
 .details-btn{
@@ -12,7 +10,8 @@
     border-radius: 25px;
     color: #2fa7b8;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
+
 }
 .details-btn:hover{
     background-color: #168d9e;

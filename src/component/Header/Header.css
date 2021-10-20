@@ -1,3 +1,4 @@
+
 .menu{
     display: flex;
     padding-right: 15px;
@@ -37,4 +38,7 @@
 }
 .btn-regular:focus{
     background-color: #168d9e;
+}
+.user a{
+    color: #0a808c;
 }

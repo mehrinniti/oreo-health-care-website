@@ -1,23 +1,39 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../component/Firebase/firebase.init";
+
 
 initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
 
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                setUser(result.user);
-            })
+
+        return signInWithPopup(auth, googleProvider)
+
 
     }
+
+    const handleEmailLogin = (name, email, password) => {
+        console.log(name, email, password);
+        createUserWithEmailAndPassword(auth, email, password).then((result) => {
+            setUser(result.user);
+            updateProfile(auth.currentUser, {
+                displayName: name,
+            }).then(() => { });
+        });
+    };
+
+    const userLogin = (email, password) => {
+        return signInWithEmailAndPassword(auth, email, password)
+
+    };
 
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
@@ -27,6 +43,7 @@ const useFirebase = () => {
             else {
                 setUser({});
             }
+            setIsLoading(false);
         });
         return () => unsubscribed;
     }, [])
@@ -34,12 +51,17 @@ const useFirebase = () => {
     const logOut = () => {
         signOut(auth)
             .then(() => { })
+            .finally(() => setIsLoading(false))
     }
 
     return {
         user,
         signInUsingGoogle,
-        logOut
+        logOut,
+        handleEmailLogin,
+        userLogin,
+        setIsLoading,
+        isLoading
     }
 }
 

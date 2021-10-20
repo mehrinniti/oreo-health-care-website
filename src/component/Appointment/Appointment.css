@@ -9,6 +9,9 @@
     padding-bottom: 30px;
     border-radius: 10px;
 }
+.page{
+    margin-top: 160px;
+}
 .appointment-form{
     width: 70%;
     text-align: justify;

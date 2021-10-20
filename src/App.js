@@ -11,6 +11,7 @@ import SignUp from './component/SignUp/SignUp';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Healthcare from './component/Healthcare/Healthcare';
 import AuthProvider from './component/context/AuthProvider';
+import PrivateRoute from './component/PrivateRouter/PrivateRoute';
 
 
 function App() {
@@ -37,25 +38,23 @@ function App() {
             <Route path="/doctors">
               <Doctors></Doctors>
             </Route>
-            <Route path="/appointment">
+            <PrivateRoute path="/appointment">
               <Appointment></Appointment>
-            </Route>
-            <Route path="/healthcare/:serviceId">
+            </PrivateRoute>
+            <PrivateRoute path="/healthcare/:serviceId">
               <Healthcare></Healthcare>
-            </Route>
+            </PrivateRoute>
 
             <Route path="*">
               <NotFound></NotFound>
             </Route>
 
-            <Route path="/footer">
-              <Footer></Footer>
-            </Route>
-
           </Switch>
+
+          <Footer></Footer>
+
         </BrowserRouter>
       </AuthProvider>
-
 
     </div>
   );
